@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/output.css" />
+
+    <title>Dark & Light Mode</title>
+  </head>
+  <body
+    class="h-screen flex items-center justify-center px-8 bg-slate-100 dark:bg-slate-900"
+  >
+    <div
+      class="max-w-[600px] shadow-md p-6 rounded-md bg-white dark:bg-slate-700 dark:text-white"
+    >
+      <div class="flex items-start mb-4">
+        <h1 class="text-4xl flex-1">Tailwind Dark/Light Mode</h1>
+        <img
+          class="moon cursor-pointer h-7"
+          src="./assets/moon-solid.svg"
+          alt=""
+        />
+        <img
+          class="sun cursor-pointer h-7"
+          src="./assets/sun-white.svg"
+          alt=""
+        />
+      </div>
+      <p class="text-sm mb-4">
+        In this tutorial we will be learning how to enable dark mode for your
+        tailwind website/app. Also, we will show how we can create a toggle to
+        change between a light & dark theme.
+      </p>
+      <button
+        class="py-2 px-4 bg-black text-white rounded-md dark:bg-white dark:text-slate-900"
+      >
+        Learn More!
+      </button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
